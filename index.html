@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caspianlogo">
+        <img src="pic2.jpeg" alt="" srcset="">
+    </div>
+    <div class="uiassignment">
+        <div class="header">
+            <span>UI-Assignment</span>
+        </div>
+        <div class="groups">
+
+            <div class="grp-AB">
+
+                <div class="groupA">
+                    <label> <b> Group A : </b> </label>
+                    <div class="groupAB-multi-select">
+                        <select id="GA" onchange="GASelectedTextValue()">
+                            <option value="">--select option--</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="groupB">
+                    <label> <b> Group B : </b> </label>
+                    <div class="groupAB-multi-select">           
+                        <select id="GB" onchange="GBSelectedTextValue()">
+                            <option value="">--select option--</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+                <div class="groupC">
+                    <label> <b> Group C : </b> </label>
+                    <div>
+                    <select id="GC" onchange="GCSelectedTextValue()">
+                        <option value="">--select option--</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+    <div class="output">
+        <div class="output-text"> <b> Output : </b> </div>
+        <div>
+            <p class="outer-text-box" id="op"></p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

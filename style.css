@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caspianlogo{
+    margin-left: 48rem;
+}
+
+.header{
+    background-color: grey;
+    color: white;
+    margin-top: 3.5rem;
+    margin-left: 20rem;
+    margin-right: auto;
+    margin-bottom: 6rem;
+    width: 50%;
+    height: 2rem;
+    padding-top: 1rem;
+    padding-left: 18rem;
+    padding-bottom: 3rem;
+}
+
+header span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.groups{
+    margin-left: 22rem;
+}
+
+.grp-AB{
+    /* margin-left: 22rem;   */
+    display: flex; 
+}
+
+.groupC{
+    /* margin-left: 22rem; */
+    margin-top: 3rem;
+    margin-left: 28rem;
+
+}
+
+.groupA{
+    margin-left: 5rem;
+    margin-right: 8rem;  
+}
+
+.groupB{
+    margin-left: 7rem;
+}
+
+.group-ab{
+    width: 9rem;
+    height: 1.5rem;
+}
+
+.grp-heading{
+    padding-left: 1.8rem;
+}
+
+.output{
+    margin-top: 4rem;
+    margin-left: 25rem;
+}
+
+
+p{
+    border: 1px solid black;
+    width: 35rem;
+    height: 3rem;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+}
